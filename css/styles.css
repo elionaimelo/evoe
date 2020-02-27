@@ -1,0 +1,371 @@
+html, body {
+    position: relative;
+    height: 100%;
+  }
+
+body {
+    font-family: 'Fira Sans' !important ;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#mainNav {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.botao-duvidas {
+    margin-right: 40px; 
+}
+
+.botao-duvidas a {
+    color:#606060;
+    margin-top: 10px;
+}
+
+#mainNav .navbar-toggler-icon {
+    background-image: url(../img/hambuger.svg);
+}
+
+.botao-area {
+    color: #6C29ED;
+    border:1px solid #6C29ED;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+.enfase1 ,
+.section2 h1 ,
+.section3 h1,
+.privacidade h1
+{
+    font-size: 3.6rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #30094D;
+}
+
+.privacidade h1 {
+    color: #6C29ED;
+}
+
+.enfase1 {
+    margin-bottom: 60px;
+}
+
+
+.enfase1 .cor1 ,
+.section2 h1 .cor1 ,
+.section3 h1 .cor1
+{
+    color: #6C29ED;
+}
+
+.botao2 {
+    background-color: #6C29ED;
+    color: #fff;
+    padding: 17px 42px;
+    border-radius: 6px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.disponivel {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.section1 , .section7{
+    color: #fff;
+    background:#30094D url(../img/bg1.png) center right no-repeat;
+    background-size: auto 100%;
+    padding: 80px;
+}
+
+.section7 {
+    background-image: url(../img/bg-divulgue.png);
+}
+
+.section7  .numero-passo {
+    color: #6C29ED;
+    font-size: 3.5rem;
+    margin-top: 60px;
+    font-weight: 300;
+}
+
+
+.section7 h1 {
+    font-size: 3.6rem;
+}
+
+.section7 .passo {
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.destaque {
+    color: #CAD2FF;
+}
+
+.section1 h1 
+{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.section2 ,
+.section3,
+.section4
+{
+    position: relative;
+    padding: 60px;
+}
+
+.section2::before ,
+.section3::before ,
+.section4::before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url(../img/facilUsar.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section3::before {
+    background:#EFF1FF url(../img/facilEscolher.png);
+    background-position: center left;
+    background-size: cover;
+    left: 0;
+}
+
+.section4 {
+    background-color:#6C29ED;
+}
+
+.section4::before { 
+    background:#6C29ED url(../img/dificilFicar.png);
+}
+
+.subtexto {
+    color: #606060;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.section4 h1 {
+    color: #CAD2FF;
+    font-weight: 300;
+    font-size: 3.6rem;
+}
+.section4 h1 .cor1 {
+    color: #fff;
+}
+
+.section4 .subtexto{
+    color: #fff;
+}
+
+.img-composicao {
+    position: relative;
+    z-index: 1;
+}
+
+.botao3 {
+    background-color: #fff;
+    color: #6C29ED;
+    padding: 17px 42px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+}
+
+
+  .privacidade .wrapper {
+      background-color: #F8F9FF;
+      padding-top: 70px;
+      padding-bottom: 70px;
+      margin-top: 50px;
+      margin-bottom: 130px;
+  }
+
+  .privacidade .wrapper h4 {
+      color: #30094D;
+      margin-bottom: 25px;
+  }
+
+  .privacidade .wrapper p {
+      margin-bottom: 30px;
+      color: #606060;
+  }
+
+  .privacidade .subtitulo {
+      color: #30094D;
+  }
+
+
+  .newsletter {
+      background-color: #6C29ED;
+      padding: 80px;
+  }
+
+  .newsletter p {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 300;
+  }
+
+  .inp-newsletter {
+      height: 55px;
+      border: 0;
+  }
+
+  .group-custom {
+    margin-top: 24px;
+    background-color: #fff;
+    border-radius: 6px;
+  }
+
+  .input-group-append {
+    margin: 1px;
+  }
+
+  #basic-addon2 {
+      background-color: #6C29ED;
+      color: white;
+      border:none;
+      border-radius: 6px;
+      padding: 15px 30px;
+  }
+
+  .section8 {
+    margin: 90px;
+}
+
+  .section8 h1 {
+      color: #30094D;
+      font-weight: 300;
+      font-size: 3.6rem;
+  }
+
+  .section8 h1 .destaque {
+      color: #6C29ED;
+  }
+
+.textfield {
+   position: relative;
+   padding: 30px 90px 5px 18px;
+    border:1px solid #AAAAAA;
+    border-radius:6px;
+    box-shadow: none;
+}
+
+.form-duvida {
+    position: relative;
+}
+
+.centered {
+    margin-top: 60px;
+}
+.centered span {
+    position: absolute;
+    z-index: 1;
+    top: 13px;
+    left: 14px;
+    color:#30094D;
+    
+    padding: 5px;
+}
+.textfield:focus {
+    border:1px solid #6C29ED;
+    outline: none;
+}
+input:focus ~ span,
+input:not(:focus):valid ~ span {
+    top:0px;
+}
+.textfield, span {
+	transition: ease-in-out 0.2s all;
+	-webkit-transition: ease-in-out 0.2s all;
+	-moz-transition: ease-in-out 0.2s all;
+	-o-transition: ease-in-out 0.2s all;
+}
+
+  
+
+@media screen and (max-width: 1600) and (max-width: 2000px) {
+    
+  }
+  
+  
+  @media screen and (min-width: 1600px) {
+  }
+  
+  
+  @media screen and (max-width: 991px) {
+
+  }
+  @media screen and (max-width: 768px) {
+    .showcase .showcase-text {
+        padding: 7rem;
+    }
+
+  }
+  
+  @media screen and (max-width: 500px) {
+
+  }
+  
+  @media screen and (max-width: 480px) {
+    .celular ,
+    .disponivel {
+        display: none;
+    }
+
+    .section1 {
+        padding: 55px 27px;
+    }
+
+    .section2 , .section3 {
+        padding: 0; 
+        background-image: none;
+    }
+
+    .section2 h1,
+    .section3 h1 {
+        margin-bottom: 20px;
+    }
+
+    .subtexto ,
+    .img-composicao {
+        margin-left: 25px;
+    }
+
+    .botao3 {
+        top: 128px;
+    }
+
+    .section4-bg .img-composicao {
+        margin-top: -40px;
+    }
+
+    .section3 .img-composicao {
+        margin-left: -5vw;
+    }
+  }
+  
+  
+  
