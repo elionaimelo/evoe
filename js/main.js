@@ -5,3 +5,15 @@ $('.is-floating-label input, .is-floating-label textarea').on('focus blur', func
 $('#sq-crousal4').carousel({
   interval: 10000000000 * 10
 });
+
+$('.carousel').carousel({
+  interval: 10000000000 * 10
+});
+
+$('.section5 .carousel').on('slid.bs.carousel', function() {
+  $(".section5 .desfrute2 li").removeClass("active");
+  indicators = $(".carousel-indicators li.active").data("slide-to");
+  a = $(".desfrute2").find("[data-slide-to='" + indicators + "']").addClass("active");
+  console.log(indicators);
+
+})
