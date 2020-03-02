@@ -9,6 +9,8 @@ body {
     font-weight: 500;
 }
 
+
+
 a:hover {
     text-decoration: none;
 }
@@ -33,9 +35,22 @@ a:hover {
 
 .botao-area {
     color: #6C29ED;
-    border:1px solid #6C29ED;
-    padding: 15px 20px;
+    border:1px solid #CAD2FF;
+    padding: 10px 20px;
     border-radius: 6px;
+}
+
+.txt-botao-area {
+    /* padding-top: 1px; */
+    /* display: inline-block; */
+    display: flex;
+    margin: 4px 7px;
+}
+
+.botao-area svg {
+    margin-left: 10px;
+    align-self: center;
+    display: flex;
 }
 
 .section5 {
@@ -79,7 +94,11 @@ a:hover {
     border-radius: 6px;
     margin-top: 70px;
     text-align: center;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
 }
+
+
 
 .disponivel {
     margin-top: 80px;
@@ -106,7 +125,9 @@ a:hover {
 
 
 .section7 h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
+    width: 260px;
+    font-weight: 300;
 }
 
 .section7 .passo {
@@ -271,6 +292,7 @@ a:hover {
       color: #30094D;
       font-weight: 300;
       font-size: 2.7rem;
+      max-width: 50px;
   }
 
   .section8 h1 .destaque {
@@ -750,6 +772,7 @@ textarea.textareafield {
 
     .section8 h1 {
         margin-top: 50px;
+        max-width: inherit;
     }
 
     .stores {
@@ -766,6 +789,12 @@ textarea.textareafield {
     .bt-enviar {
         width: 100%;
     }
+
+    .section7 h1 {
+        width: inherit;
+        font-size: 2.8rem;
+    }
+
 
   }
   
