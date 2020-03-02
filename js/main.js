@@ -19,8 +19,13 @@ $('.section5 .carousel').on('slid.bs.carousel', function() {
 })
 
 $(".center").slick({
-  dots: true,
-  centerMode: true,
+  dots: false,
+  slidesToShow: 2,
+  slidesToScroll: 1
+});
+
+$(".slider1").slick({
+  dots: false,
   slidesToShow: 2,
   slidesToScroll: 1
 });
