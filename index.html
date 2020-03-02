@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+   
     <link rel="stylesheet" href="css/styles.css">
 
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -127,13 +130,16 @@
 
 <section class="section5">
   <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators d-none" class="carousel slide d-none" data-ride="carousel">
       <div class="row">
+        <h1>Desfrute da melhor <br/><span class="cor1">experiência</span></h1>
+
+      </div>
+      <div class="row flex-column-reverse flex-lg-row">
       
             <div class="col-md-8">
-              <h1>Desfrute da melhor <br/><span class="cor1">experiência</span></h1>
 
-              <ol class="carousel-indicators desfrute">
+              <ol class="carousel-indicators desfrute d-flex d-md-block">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
                   Agenda de <br/>espetáculos
                 </li>
@@ -147,7 +153,7 @@
             </div>
             <div class="col-md-4">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators desfrute2">
+                <ol class="carousel-indicators desfrute2 d-none d-md-flex">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -168,6 +174,28 @@
       </div>
       </div>
     </div>
+    
+    <section class="center slider">
+      <div class="cont-slider">
+        <img src="img/app_evoe_03.png"  alt="...">
+      </div>
+      <div class="cont-slider">
+        <img src="img/app_evoe_03.png"  alt="...">
+      </div>
+      <div class="cont-slider">
+        <img src="img/app_evoe_03.png"  alt="...">
+      </div>
+      <div class="cont-slider">
+        <img src="img/app_evoe_03.png"  alt="...">
+      </div>
+      <div class="cont-slider">
+        <img src="img/app_evoe_03.png"  alt="...">
+      </div>
+      <div class="cont-slider">
+        <img src="img/app_evoe_03.png"  alt="...">
+      </div>
+
+    </section>
 </section>
 
 <section class="section6">
@@ -193,7 +221,7 @@
                   <div class="col-md-10 d-block">
                     <p class="testimonial">“Create fluid interactions and high fidelity prototypes and then preview faster than ever”.</p>
                     <img class="rounded-circle float-left" src="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" >
-                    <div class="feedback-text h-30 d-flex justify-content-center flex-column pl-3">
+                    <div class="feedback-text h-30 d-md-flex d-block justify-content-center flex-column pl-3">
                           
                             <p class="nome">Someone famous</p>
                               <p class="cargo">Produtora no Theatro Municipal<br/> de São Paulo
@@ -248,18 +276,18 @@
         </a>
         </div>                          
       </div>
-    </!doctype>
+
   </div>
 </section>
 
 <section class="section7">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-xs-12 col-sm-8">
         <h1>Divulgue<br/> <span class="destaque">sua peça!</span></h1>
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-8">
             <h4 class="numero-passo">1</h4>
             <p class="passo">
               Baixe o nosso<br/> app em <span class="destaque"> seu smartphone</span>
@@ -271,7 +299,7 @@
               </g>
             </svg></a>
           </div>
-          <div class="col-md-8">
+          <div class="col-4">
             <h4 class="numero-passo">2</h4>
             <p class="passo">
               Acesse o menu <br/><span class="destaque">“Seja parceiro”</span><br/> e cadastre-se!
@@ -279,7 +307,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-sm-block">
         <img src="img/aplicacao_evoe.png" alt="" class="img-fluid">
       </div>
     </div>
@@ -398,6 +426,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js" ></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

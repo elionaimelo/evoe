@@ -369,6 +369,8 @@ textarea.textareafield {
       color: #fff;
       border-radius: 6px;
       padding: 15px 115px 15px 119px;
+      outline: none;
+      border: 0;
   }
 .footer {
     background-color: #6C29ED;
@@ -533,7 +535,24 @@ textarea.textareafield {
     }
 }
 
+.cont-slider {
+    padding: 30px 50px;
+}
+.cont-slider img {
+    max-width: 400%;
+}
 
+.slick-slide {
+    opacity: 0.2;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.center {
+    margin-left: -30%;
+}
 
 @media screen and (max-width: 1600) and (max-width: 2000px) {
     
@@ -570,8 +589,15 @@ textarea.textareafield {
 
     .section2,
     .section3,
-    .section4 {
-        padding: 0; 
+    .section4 ,
+    .section5,
+    .section6,
+    .section7,
+    .section8,
+    .newsletter
+    {
+        padding: 40px 0;
+        margin: 0; 
     }
 
     .section2::before , .section3::before , .section4::before{
@@ -589,6 +615,7 @@ textarea.textareafield {
         margin-left: 25px;
     }
 
+
     .botao3 {
         top: 128px;
     }
@@ -600,6 +627,20 @@ textarea.textareafield {
     .section3 .img-composicao {
         margin-left: -5vw;
     }
+
+    .desfrute {
+        margin-top: 80px;
+    }
+
+    .desfrute li:nth-child(2).active {
+        left: 100%;
+        /* margin-left: -100px;  */
+    }
+
+    .activer1 {
+        background-image: url(../);
+    }
+
   }
   
   

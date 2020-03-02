@@ -17,3 +17,10 @@ $('.section5 .carousel').on('slid.bs.carousel', function() {
   console.log(indicators);
 
 })
+
+$(".center").slick({
+  dots: true,
+  centerMode: true,
+  slidesToShow: 2,
+  slidesToScroll: 1
+});
