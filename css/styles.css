@@ -106,7 +106,7 @@ a:hover {
 
 
 .section7 h1 {
-    font-size: 3.6rem;
+    font-size: 2.8rem;
 }
 
 .section7 .passo {
@@ -202,6 +202,7 @@ a:hover {
     position: relative;
     z-index: 4;
     text-align: center;
+    margin: 0 20px ;
 }
 
 
@@ -269,7 +270,7 @@ a:hover {
   .section8 h1 {
       color: #30094D;
       font-weight: 300;
-      font-size: 3.6rem;
+      font-size: 2.7rem;
   }
 
   .section8 h1 .destaque {
@@ -753,6 +754,17 @@ textarea.textareafield {
 
     .stores {
         margin: 20px;
+    }
+
+    .centered label ,
+    .centered .textfield,
+    textarea.textareafield
+    {
+        width: 100%;
+    }
+
+    .bt-enviar {
+        width: 100%;
     }
 
   }
