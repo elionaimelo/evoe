@@ -2,6 +2,9 @@ html,
 body {
   position: relative;
   height: 100%;
+  text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: antialiased;
 }
 
 body {
@@ -17,11 +20,6 @@ input {
 }
 
 /* Login page */
-
-html,
-body.login {
-  height: 100%;
-}
 
 body.login {
   background-color: #6c29ed;
@@ -130,7 +128,10 @@ a:hover {
   border: 1px solid #cad2ff;
   padding: 10px 20px;
   border-radius: 6px;
-  transition: all 0.2ms;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .txt-botao-area {
@@ -152,7 +153,7 @@ a:hover {
 }
 
 .botao-area:hover svg {
-  fill: #6c29ed;
+  fill: #fff;
 }
 
 .section5 {
@@ -322,8 +323,8 @@ a:hover {
 
 .privacidade .wrapper {
   background-color: #f8f9ff;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   margin-top: 50px;
   margin-bottom: 130px;
 }
