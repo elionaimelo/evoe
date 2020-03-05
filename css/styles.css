@@ -151,6 +151,11 @@ a:hover {
 .botao-area:hover {
   background-color: #6c29ed;
   color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-color: #6c29ed;
 }
 
 .botao-area:hover svg path,.botao-area:hover svg circle {
@@ -161,15 +166,20 @@ a:hover {
   overflow: hidden;
 }
 
+.section5 h1 {
+    margin-bottom: 80px;
+}
+
 .enfase1,
 .section2 h1,
 .section3 h1,
 .privacidade h1,
 .section5 h1 {
   font-size: 4.375rem;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-weight: 300;
   color: #30094d;
+  margin-top: 50px;
 }
 
 .privacidade h1 {
@@ -203,6 +213,10 @@ a:hover {
 .botao2:hover {
     background-color: #30094D;
     color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -217,6 +231,10 @@ a:hover {
   background: #30094d url(../img/bg1.png) center right no-repeat;
   background-size: auto 100%;
   padding: 101px 0 115px 0;
+}
+
+.section1 p {
+    color: #CAD2FF;
 }
 
 .section7 {
@@ -234,13 +252,16 @@ a:hover {
   font-size: 4.375rem;
   /* width: 260px; */
   font-weight: 300;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 .section7 .passo {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 2.188rem;
   color: #fff;
   margin-bottom: 70px;
+  width: 300px;
 }
 
 .destaque {
@@ -257,7 +278,7 @@ a:hover {
 .section3,
 .section4 {
   position: relative;
-  padding: 113px 60px 158px 60px;
+  padding: 113px 60px 165px 60px;
 }
 
 .section2::before,
@@ -305,7 +326,7 @@ a:hover {
   color: #cad2ff;
   font-weight: 300;
   font-size: 4.375rem;
-  margin-top: 60px;
+  margin-top: 0;
 }
 .section4 h1 .cor1 {
   color: #fff;
@@ -412,7 +433,7 @@ a:hover {
 }
 
 .section8 {
-  margin: 90px;
+  margin: 120px 90px 100px 90px;
 }
 
 .section8 h1 {
@@ -534,6 +555,10 @@ textarea.textareafield {
 .bt-enviar:hover {
     background-color: #30094D;
     color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .footer {
@@ -578,8 +603,8 @@ textarea.textareafield {
   top: -40px;
 }
 .sq-crousal4 li {
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
 }
 .sq-crousal4 .fa-angle-left {
   font-size: 45px;
@@ -606,6 +631,7 @@ textarea.textareafield {
 }
 .sq-crousal4 .carousel-indicators li {
   border-radius: 30px;
+  margin-right: 20px;
 }
 
 .sq-crousal4 .carousel-indicators {
@@ -614,12 +640,16 @@ textarea.textareafield {
 }
 
 .h-30 {
-  height: 30% !important;
+  height: 38% !important;
 }
 
 .sq-crousal4 img {
   width: 95px;
   height: 95px;
+}
+
+.feedback-text {
+    padding-left: 30px;
 }
 
 .feedback-text p {
@@ -628,7 +658,7 @@ textarea.textareafield {
 
 .feedback-text .nome {
   color: #6c29ed;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   font-weight: 300;
 }
 
@@ -649,6 +679,10 @@ textarea.textareafield {
   border-top: 1px solid #cad2ff;
 }
 
+.section5 {
+    padding: 120px 90px 138px 90px;
+}
+
 .desfrute {
   position: relative;
   margin-left: 0;
@@ -659,13 +693,14 @@ textarea.textareafield {
 .desfrute li {
   opacity: 1;
   width: 330px;
-  height: 143px;
+  height: 150px;
   margin-left: 0;
-  text-indent: 132px;
+  text-indent: 142px;
   white-space: pre-line;
-  padding-left: 135px;
+  padding-left: 155px;
   color: #cad2ff;
-
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .carousel-icones {
@@ -743,8 +778,8 @@ textarea.textareafield {
 }
 
 .desfrute2 li {
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   border-radius: 30px;
   border: none;
   border: 1px solid #6c29ed;
@@ -876,12 +911,15 @@ ul {
   .section3,
   .section4,
   .section5,
-  .section6,
   .section7,
   .section8,
   .newsletter {
     padding: 40px 0;
     margin: 0;
+  }
+
+  .section6 {
+      padding: 55px 0 90px 0;
   }
 
   .section5 h1 {
@@ -923,6 +961,8 @@ ul {
 
   .sq-crousal4 .carousel-indicators {
     left: -59px;
+    bottom: -32px;
+    top: auto;
   }
 
   .sq-crousal4 img {
