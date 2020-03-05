@@ -665,6 +665,7 @@ textarea.textareafield {
   white-space: pre-line;
   padding-left: 135px;
   color: #cad2ff;
+
 }
 
 .carousel-icones {
@@ -729,11 +730,11 @@ textarea.textareafield {
 .desfrute li:nth-child(2).active,
 .desfrute li:nth-child(3):hover,
 .desfrute li:nth-child(3).active {
-  background-position: 0 -160px;
-  animation: fadein 0.3s;
-  -moz-animation: fadein 0.3s; /* Firefox */
-  -webkit-animation: fadein 0.3s; /* Safari and Chrome */
-  -o-animation: fadein 0.3s;
+  background-position: 0 -162px;
+  animation: fadein 0.6s;
+  -moz-animation: fadein 0.6s; /* Firefox */
+  -webkit-animation: fadein 0.6s; /* Safari and Chrome */
+  -o-animation: fadein 0.6s;
   color: #6c29ed;
 }
 
@@ -965,12 +966,28 @@ ul {
   }
 }
 
-@keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0;
+
+@-o-keyframes fadein{
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
   }
-  to {
-    opacity: 1;
+  @-moz-keyframes fadein{
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
   }
-}
+  @-webkit-keyframes fadein{
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
