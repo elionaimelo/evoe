@@ -928,7 +928,7 @@ ul {
   }
 }
 
-@-webkit-keyframes fadein {
+@keyframes fadein {
   /* Safari and Chrome */
   from {
     opacity: 0;
