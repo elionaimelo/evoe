@@ -128,11 +128,12 @@ a:hover {
   border: 1px solid #cad2ff;
   padding: 10px 20px;
   border-radius: 6px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: ease-in-out 0.2s all;
+  -webkit-transition: ease-in-out 0.2s all;
+  -moz-transition: ease-in-out 0.2s all;
+  -o-transition: ease-in-out 0.2s all;
 }
+
 
 .txt-botao-area {
   /* padding-top: 1px; */
@@ -152,9 +153,9 @@ a:hover {
   color: #fff;
 }
 
-.botao-area:hover svg {
-  fill: #fff;
-}
+.botao-area:hover svg path,.botao-area:hover svg circle {
+    stroke: #fff;
+  }
 
 .section5 {
   overflow: hidden;
@@ -193,8 +194,10 @@ a:hover {
   border-radius: 6px;
   margin-top: 70px;
   text-align: center;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: ease-in-out 0.2s all;
+  -webkit-transition: ease-in-out 0.2s all;
+  -moz-transition: ease-in-out 0.2s all;
+  -o-transition: ease-in-out 0.2s all;
 }
 
 .disponivel {
@@ -207,7 +210,7 @@ a:hover {
   color: #fff;
   background: #30094d url(../img/bg1.png) center right no-repeat;
   background-size: auto 100%;
-  padding: 80px 0 100px 0;
+  padding: 101px 0 115px 0;
 }
 
 .section7 {
@@ -319,6 +322,10 @@ a:hover {
   position: relative;
   z-index: 4;
   text-align: center;
+  transition: ease-in-out 0.2s all;
+  -webkit-transition: ease-in-out 0.2s all;
+  -moz-transition: ease-in-out 0.2s all;
+  -o-transition: ease-in-out 0.2s all;
 }
 
 .privacidade .wrapper {
@@ -434,8 +441,7 @@ input:not(:focus):valid ~ span {
   top: 0px;
   color: #30094d;
 }
-.textfield,
-span,
+.textfield span,
 .textareafield {
   transition: ease-in-out 0.2s all;
   -webkit-transition: ease-in-out 0.2s all;
@@ -858,10 +864,6 @@ ul {
   .subtexto,
   .img-composicao {
     margin-left: 25px;
-  }
-
-  .botao3 {
-    /* top: 128px; */
   }
 
   .section4 .img-composicao {
