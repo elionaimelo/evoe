@@ -279,6 +279,7 @@ a:hover {
 .section4 {
   position: relative;
   padding: 113px 60px 165px 60px;
+  /* padding: 158px 60px 145px 60px; */
 }
 
 .section2::before,
@@ -440,6 +441,7 @@ a:hover {
   color: #30094d;
   font-weight: 300;
   font-size: 4.375rem;
+  width: 315px;
 }
 
 .section8 h1 .destaque {
