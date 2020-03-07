@@ -18,10 +18,13 @@ $('.section5 .carousel').on('slid.bs.carousel', function() {
 
 })
 
-$(".center").slick({
+$(".variable").slick({
+  arrows: false,
   dots: false,
+  infinite: true,
+  speed: 300,
   slidesToShow: 2,
-  slidesToScroll: 1
+  variableWidth: true
 });
 
 $(".slider1").slick({
